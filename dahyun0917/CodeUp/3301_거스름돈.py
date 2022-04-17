@@ -7,5 +7,4 @@ for m in money_type:
     if(money//m>0):
         answer=answer+money//m
         money=money%m
-        
 print(answer)
