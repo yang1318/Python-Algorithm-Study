@@ -37,3 +37,4 @@ for i in range(1,n) :
     count += 1
 
 print(count)
+
