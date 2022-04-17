@@ -19,3 +19,4 @@ if(n>0):
     else:
         answer+=min(set)
 print(answer)
+
