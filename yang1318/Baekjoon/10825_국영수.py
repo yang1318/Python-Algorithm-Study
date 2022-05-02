@@ -4,14 +4,13 @@ import sys
 n = int(sys.stdin.readline())
 student = []
 for i in range(n):
-    student.append(sys.stdin.readline().split())
-    student[i][1] = int(student[i][1])
-    student[i][2] = int(student[i][2])
-    student[i][3] = int(student[i][3])
+    name, a, b, c = sys.stdin.readline().split()
+    a, b, c = int(a), int(b), int(c)
+    student.append([-a, b, -c, name])
 
 #정렬
-student.sort(key=lambda x: (-x[1], x[2], -x[3], x[0]))
+student.sort()
 
 # 출력
 for i in range(n):
-    print(student[i][0])
+    print(student[i][3])
