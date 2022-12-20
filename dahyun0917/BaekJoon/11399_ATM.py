@@ -13,3 +13,4 @@ for t in time:
     result+=temp
     
 print(result)
+
