@@ -10,3 +10,4 @@ for _ in range(m):
     i, j = map(int, input().split())
     if i==1: print(addList[j-1])
     else: print(addList[j-1]-addList[i-2])
+        
